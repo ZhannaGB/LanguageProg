@@ -1,5 +1,6 @@
 ﻿/* Первый метод.
-Перепишем этот код с использованием генератора случайных чисел и с ичпользованием методов.
+Перепишем этот код с использованием генератора случайных чисел и с
+ ичпользованием методов.
 */
 
 void FillArray(int[] collection)
@@ -12,7 +13,7 @@ void FillArray(int[] collection)
         index++;
     }
 }
-int [] arra = new int[10]; //Создай новый массив, в котором будет 10 элементов
+int[] arra = new int[10]; //Создай новый массив, в котором будет 10 элементов
 /*Сначала мы определили массив из 10 элементов. Далее вызвали FillArray,
  который заполнил нам массив. Потом PrintArray нам его распечатал.*/
 
@@ -33,7 +34,7 @@ int Index0f(int[] collection, int find)
     int position = -1; //сначала 0 ставили
     while (index < count)
     {
-        if(collection[index] == find)
+        if (collection[index] == find)
         {
             position = index; // если не писать брейк, то 
             break;
@@ -47,7 +48,7 @@ int[] array = new int[10];
 
 FillArray(array);
 array[4] = 4;
-array[6] = 4; 
+array[6] = 4;
 PrintArray(array);
 Console.WriteLine();
 
